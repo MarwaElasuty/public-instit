@@ -1,0 +1,445 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+
+}
+.section-container{
+    max-width: 1350px;
+    margin: auto;
+}
+
+/*************** NAVIGATION BAR *****************/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    column-gap: 27px;
+    border-radius: 26px;
+    margin-top: -35px;
+    background-color: white;
+    padding: 26px;
+    box-shadow: 2px 3px 2px 1px gainsboro;
+}
+
+
+ul {
+    display: flex;
+    column-gap: 92px;
+    list-style-type: none;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+ul a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.ul-list a:hover {
+    color: #518581;
+    cursor: pointer;
+}
+
+.nav-btns {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.menu-btns {
+    display: none;
+}
+
+.menu-btns > img:nth-of-type(1){
+    padding-right: 10px;
+}
+
+.logo-div {
+    padding-top: 10px;
+}
+
+.nav-btns-w-search {
+    display: flex;
+    align-items: center;
+    column-gap: 21px;
+}
+
+button[name="login"] {
+    background-color: inherit;
+    padding: 15px;
+    width: 77px;
+    border-style: none;
+    font-size: 17px;
+}
+
+button[name="start"] {
+    padding: 11px;
+    width: 128px;
+    border-style: none;
+    font-size: 16px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 9px;
+}
+
+img[alt="menu-burger"] {
+    display: none;
+}
+@media screen and (max-width: 1200px) and (min-width:992px) {
+
+    ul {
+        flex-direction: column;
+    }
+
+    .ul-list {
+        display: none;
+        position: absolute;
+        border-style: none;
+        top: 80px;
+        right: 20px;
+        /* border: 5px solid #518581; */
+        padding: 24px;
+        background-color: green;
+        color: white;
+        font-size: 25px;
+        z-index: 2;
+        text-align: center;
+        border-radius: 16px;
+    }
+
+    ul a {
+        color: white;
+    }
+
+    ul a:hover {
+        color: white;
+    }
+
+    .display {
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        border: 5px solid #518581;
+        padding: 58px;
+        background-color: #518581;
+        color: white;
+        font-size: 25px;
+        z-index: 2;
+        text-align: center;
+        border-radius: 76px;
+    }
+
+    .ul-list a:hover {
+        color: white;
+    }
+
+
+    .ul-list li {
+        padding-bottom: 22px;
+    }
+
+    img[alt="menu-burger"] {
+        display: block;
+    }
+
+    nav {
+        padding: 32px;
+    }
+
+    .nav-btns {
+        display: none;
+    }
+
+    button[name="login"] {
+        color: white;
+    }
+
+    .menu-btns {
+        display: block;
+        background-color: white;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 992px) and (min-width:786px) {
+    ul {
+        flex-direction: column;
+    }
+
+    ul a {
+        color: white;
+    }
+
+    .ul-list a:hover {
+        color: white;
+    }
+
+    .display {
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        border: 5px solid #518581;
+        padding: 58px;
+        background-color: #518581;
+        color: white;
+        font-size: 25px;
+        z-index: 2;
+        text-align: center;
+        border-radius: 76px;
+    }
+
+    .ul-list {
+        display: none;
+        position: absolute;
+        border-style: none;
+        top: 80px;
+        right: 20px;
+        /* border: 5px solid #518581; */
+        padding: 24px;
+        background-color: green;
+        color: white;
+        font-size: 25px;
+        z-index: 2;
+        text-align: center;
+        border-radius: 16px;
+    }
+
+    img[alt="menu-burger"] {
+        display: block;
+    }
+
+    .ul-list li {
+        padding-bottom: 22px;
+    }
+
+    nav {
+        padding: 32px;
+    }
+
+    .nav-btns {
+        display: none;
+    }
+
+    button[name="login"] {
+        color: white;
+    }
+
+    .menu-btns {
+        display: block;
+        background-color: white;
+        padding: 5px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 786px) and (min-width:600px) {
+
+    ul {
+        flex-direction: column;
+    }
+
+    ul a {
+        color: white;
+    }
+
+    .ul-list a:hover {
+        color: white;
+    }
+
+    .display {
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        border: 5px solid #518581;
+        padding: 58px;
+        background-color: #518581;
+        color: white;
+        font-size: 25px;
+        z-index: 2;
+        text-align: center;
+        border-radius: 76px;
+    }
+
+    .ul-list {
+        display: none;
+        position: absolute;
+        border-style: none;
+        top: 80px;
+        right: 20px;
+        /* border: 5px solid #518581; */
+        padding: 24px;
+        background-color: green;
+        color: white;
+        font-size: 25px;
+        z-index: 2;
+        text-align: center;
+        border-radius: 16px;
+    }
+
+    img[alt="menu-burger"] {
+        display: block;
+    }
+
+    .ul-list li {
+        padding-bottom: 22px;
+    }
+
+    nav {
+        padding: 32px;
+    }
+
+    .nav-btns {
+        display: none;
+    }
+
+    button[name="login"] {
+        color: white;
+    }
+
+
+    .menu-btns {
+        display: block;
+        background-color: white;
+        padding: 5px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    ul {
+        flex-direction: column;
+    }
+
+    .ul-list a:hover {
+        color: white;
+    }
+
+    ul a {
+        color: white;
+    }
+
+    .display {
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        border: 5px solid #518581;
+        padding: 58px;
+        background-color: #518581;
+        color: white;
+        font-size: 25px;
+        z-index: 2;
+        text-align: center;
+        border-radius: 76px;
+    }
+
+    .ul-list {
+        display: none;
+        position: absolute;
+        border-style: none;
+        top: 80px;
+        right: 20px;
+        /* border: 5px solid #518581; */
+        padding: 24px;
+        background-color: green;
+        color: white;
+        font-size: 25px;
+        z-index: 2;
+        text-align: center;
+        border-radius: 16px;
+    }
+
+    img[alt="menu-burger"] {
+        display: block;
+    }
+
+    .ul-list li {
+        padding-bottom: 22px;
+    }
+
+    nav {
+        padding: 32px;
+    }
+
+    .nav-btns {
+        display: none;
+    }
+
+    button[name="login"] {
+        color: white;
+    }
+
+    .menu-btns {
+        display: block;
+        background-color: white;
+        padding: 5px;
+        border-radius: 10px;
+    }
+}
+
+
+.green-background{
+    background-color: green;
+    padding: 47px;
+}
+
+.inner-green-background{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.opacited-div{
+    display: flex;
+    column-gap: 7px;
+    align-items: center;
+    border: 1px solid white;
+    padding: 12px;
+    height: 35px;
+    background: rgba(99, 99, 99, 0.5);
+    border-radius: 6px;
+    color: white;
+}
+
+
+.service-btn{
+    background-color: rgb(124, 175, 85);
+    color: white;
+    font-weight: 700;
+    width: 200px;
+    padding: 13px;
+    border-radius: 15px;
+    font-size: 16px;
+    border-style: none;
+}
+
+.display{
+    display: block;
+}
+
+.main-green{
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    color: white;
+    row-gap: 20px;
+    align-items: center;
+}
+
