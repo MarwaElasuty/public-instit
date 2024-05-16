@@ -418,16 +418,23 @@ img[alt="menu-burger"] {
     color: white;
 }
 
+.opacited-div:hover{
+    cursor: pointer;
+}
 
 .service-btn{
     background-color: rgb(124, 175, 85);
     color: white;
     font-weight: 700;
     width: 200px;
-    padding: 13px;
-    border-radius: 15px;
+    padding: 7px;
+    border-radius: 12px;
     font-size: 16px;
     border-style: none;
+}
+
+.service-btn:hover{
+    cursor: pointer;
 }
 
 .display{
@@ -436,10 +443,11 @@ img[alt="menu-burger"] {
 
 .main-green{
     display: flex;
-    column-gap: 10px;
+    column-gap: 17px;
     flex-wrap: wrap;
     color: white;
     row-gap: 20px;
     align-items: center;
 }
+
 
