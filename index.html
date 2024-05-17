@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,10 @@
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <head>
@@ -26,7 +28,7 @@
                                 <img src="angle-small-down.png" alt="down-arrow">
                                 اللغة العربية
                             </button>
-                        
+
                             <div class="main-green">
                                 <img src="calendar.png" alt="calender">
                                 <p>08 ذو القعدة 1445</p>
@@ -42,44 +44,44 @@
                             <div class="opacited-div">
                                 <p>ع-</p>
                             </div>
-                           
+
                             <button class="try-version service-btn" style="width: 150px;">نسخة تجريبية</button>
-            
+
                         </div>
-                    </div>  
-                </div>               
+                    </div>
+                </div>
             </div>
             <div class="section-container">
-            <nav>
+                <nav>
                     <div class="service-div">
                         <button class="service-btn">الدخول الي الخدمة</button>
                     </div>
                     <div class="ul-list">
                         <ul>
-                            <li><a >الوظائف</a></li>
-                            <li><a >التواصل</a></li>
-                            <li><a >الخدمات الالكترونية</a></li>
-                            <li><a >الأخبار</a></li>
-                            <li><a >الهيئة</a></li>
-                            <li><a >الرئيسية</a></li>   
+                            <li><a>الوظائف</a></li>
+                            <li><a>التواصل</a></li>
+                            <li><a>الخدمات الالكترونية</a></li>
+                            <li><a>الأخبار</a></li>
+                            <li><a>الهيئة</a></li>
+                            <li><a>الرئيسية</a></li>
                         </ul>
                     </div>
-                   
-    
+
+
                     <div class="nav-btns-w-search">
                         <div>
                             <img src="takamol-logo.png" alt="takamol-logo">
                         </div>
-        
+
                         <img src="menu-burger.png" alt="menu-burger" onclick="appear()">
-                      
+
                     </div>
-                </div>
-            
+            </div>
+
             </nav>
         </header>
     </head>
-    
+
 
     <main>
 
@@ -88,14 +90,14 @@
                 <img src="image1.jpg" alt="Image 1" class="slide active">
                 <img src="image2.jpg" alt="Image 2" class="slide">
                 <img src="image3.jpg" alt="Image 3" class="slide">
-                </div>
+            </div>
             <button class="prev-arrow">&#8592;</button>
             <button class="next-arrow">&#8594;</button>
             <div class="dots-container">
                 <span class="dot active"></span>
                 <span class="dot"></span>
                 <span class="dot"></span>
-                </div>
+            </div>
         </div>
 
 
@@ -103,80 +105,211 @@
         <div class="section-container services">
             <div class="digital-services">
                 <h2 class="medium-spacing">الخدمات الرقمية</h2>
-                   
-                    <div class="medium-spacing">
-                        <ul class="ul-services">
-                            <li>
-                                <a class="more-services-btn">جهات حكومية وقطاع الأعمال
+
+                <div class="medium-spacing">
+                    <div class="tabs-container ul-services">
+                        <ul class="tabs-nav">
+                            <li><a class="mini-services-btn active tab">الكل
+                                    <img src="hr-person.png" alt="hr-person">
+                                </a></li>
+                            <li><a class="mini-services-btn active tab">طلاب
                                     <img src="hr-person.png" alt="hr-person">
 
-                                </a>
-                            </li>
-                            <li><a class="mini-services-btn" >مقيم
-                                <img src="hr-person.png" alt="hr-person">
+                                </a></li>
+                            <li><a class="mini-services-btn active tab">زائر
+                                    <img src="hr-person.png" alt="hr-person">
 
-                            </a></li>
-                            <li><a class="mini-services-btn">زائر
-                                <img src="hr-person.png" alt="hr-person">
+                                </a></li>
+                                <li><a class="mini-services-btn active tab">مقيم
+                                    <img src="hr-person.png" alt="hr-person">
 
-                            </a></li>
-                            <li><a class="mini-services-btn">طلاب
-                                <img src="hr-person.png" alt="hr-person">
-
-                            </a></li>
-                            <li><a class="mini-services-btn active">الكل
-                                <img src="hr-person.png" alt="hr-person">
-                            </a></li>
-
+                                </a></li>
+                                <li>
+                                    <a class="more-services-btn active tab">جهات حكومية وقطاع الأعمال
+                                        <img src="hr-person.png" alt="hr-person">
+        
+                                    </a>
+                                </li>
                         </ul>
+                        <div class="tabs-content">
+                            <div class="tab-panel active">
+                                <div class="popular-services">
+                                    <h2 class="medium-spacing">الخدمات الأكثر استخداماً</h2>
+                                    <div class="flexed-services medium-spacing">
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">تأكيد اصدار شهادة صحية</h3>
+                                            <p class="spacing">هذه الخدمات تمكن الزائر أو مكاتب الادخال من التأكد من اصدار الشهادة الصحية
+                                            </p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">طلب تأشيرة حج</h3>
+                                            <p class="spacing">هي خدمة لطلب تأشيرة حج لمن لديهم موافقة من الجهات المختصة</p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">طلب زيارة شخصية</h3>
+                                            <p class="spacing">خدمة لطلب زيارة اشخاص ليس لهم صفة تجارية او عائلية بطالب التأشيرة</p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">طلب تمديد تأشيرة العودة</h3>
+                                            <p class="spacing">خدمة تتيح للمواطن والمقيم تقديم طلب تمديد تأشيرة العودة</p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-panel">
+                                <div class="popular-services">
+                                    <h2 class="medium-spacing">الخدمات الأكثر استخداماً</h2>
+                                    <div class="flexed-services medium-spacing">
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">تأكيد اصدار شهادة صحية</h3>
+                                            <p class="spacing">هذه الخدمات تمكن الزائر أو مكاتب الادخال من التأكد من اصدار الشهادة الصحية
+                                            </p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">طلب تأشيرة حج</h3>
+                                            <p class="spacing">هي خدمة لطلب تأشيرة حج لمن لديهم موافقة من الجهات المختصة</p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">طلب زيارة شخصية</h3>
+                                            <p class="spacing">خدمة لطلب زيارة اشخاص ليس لهم صفة تجارية او عائلية بطالب التأشيرة</p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">طلب تمديد تأشيرة العودة</h3>
+                                            <p class="spacing">خدمة تتيح للمواطن والمقيم تقديم طلب تمديد تأشيرة العودة</p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-panel">
+                                <div class="popular-services">
+                                    <h2 class="medium-spacing">الخدمات الأكثر استخداماً</h2>
+                                    <div class="flexed-services medium-spacing">
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">تأكيد اصدار شهادة صحية</h3>
+                                            <p class="spacing">هذه الخدمات تمكن الزائر أو مكاتب الادخال من التأكد من اصدار الشهادة الصحية
+                                            </p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">طلب تأشيرة حج</h3>
+                                            <p class="spacing">هي خدمة لطلب تأشيرة حج لمن لديهم موافقة من الجهات المختصة</p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">طلب زيارة شخصية</h3>
+                                            <p class="spacing">خدمة لطلب زيارة اشخاص ليس لهم صفة تجارية او عائلية بطالب التأشيرة</p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">طلب تمديد تأشيرة العودة</h3>
+                                            <p class="spacing">خدمة تتيح للمواطن والمقيم تقديم طلب تمديد تأشيرة العودة</p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-panel">
+                                <div class="popular-services">
+                                    <h2 class="medium-spacing">الخدمات الأكثر استخداماً</h2>
+                                    <div class="flexed-services medium-spacing">
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">تأكيد اصدار شهادة صحية</h3>
+                                            <p class="spacing">هذه الخدمات تمكن الزائر أو مكاتب الادخال من التأكد من اصدار الشهادة الصحية
+                                            </p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">طلب تأشيرة حج</h3>
+                                            <p class="spacing">هي خدمة لطلب تأشيرة حج لمن لديهم موافقة من الجهات المختصة</p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">طلب زيارة شخصية</h3>
+                                            <p class="spacing">خدمة لطلب زيارة اشخاص ليس لهم صفة تجارية او عائلية بطالب التأشيرة</p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">طلب تمديد تأشيرة العودة</h3>
+                                            <p class="spacing">خدمة تتيح للمواطن والمقيم تقديم طلب تمديد تأشيرة العودة</p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-panel">
+                                <div class="popular-services">
+                                    <h2 class="medium-spacing">الخدمات الأكثر استخداماً</h2>
+                                    <div class="flexed-services medium-spacing">
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">تأكيد اصدار شهادة صحية</h3>
+                                            <p class="spacing">هذه الخدمات تمكن الزائر أو مكاتب الادخال من التأكد من اصدار الشهادة الصحية
+                                            </p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">طلب تأشيرة حج</h3>
+                                            <p class="spacing">هي خدمة لطلب تأشيرة حج لمن لديهم موافقة من الجهات المختصة</p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">طلب زيارة شخصية</h3>
+                                            <p class="spacing">خدمة لطلب زيارة اشخاص ليس لهم صفة تجارية او عائلية بطالب التأشيرة</p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                        <div>
+                                            <img src="copy.png" alt="copy-doc">
+                                            <h3 class="spacing">طلب تمديد تأشيرة العودة</h3>
+                                            <p class="spacing">خدمة تتيح للمواطن والمقيم تقديم طلب تمديد تأشيرة العودة</p>
+                                            <button class="more-btn spacing">المزيد</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                   
-    
-                   
-                </div>
-            
-            <div class="popular-services">
-                <h2 class="medium-spacing">الخدمات الأكثر استخداماً</h2>
-                <div class="flexed-services medium-spacing">                 
-                    <div>
-                        <img src="copy.png" alt="copy-doc">
-                        <h3 class="spacing">تأكيد اصدار شهادة صحية</h3>
-                        <p class="spacing">هذه الخدمات تمكن الزائر أو مكاتب الادخال من التأكد من اصدار الشهادة الصحية</p>
-                        <button class="more-btn spacing">المزيد</button>
-                    </div>
-                    <div>
-                        <img src="copy.png" alt="copy-doc">
-                        <h3 class="spacing">طلب تأشيرة حج</h3>
-                        <p class="spacing">هي خدمة لطلب تأشيرة حج لمن لديهم موافقة من الجهات المختصة</p>
-                        <button class="more-btn spacing">المزيد</button>
-                    </div>            
-                    <div>
-                        <img src="copy.png" alt="copy-doc">
-                        <h3 class="spacing">طلب زيارة شخصية</h3>
-                        <p class="spacing">خدمة لطلب زيارة اشخاص ليس لهم صفة تجارية او عائلية بطالب التأشيرة</p>
-                        <button class="more-btn spacing">المزيد</button>
-                    </div>
-                    <div>
-                        <img src="copy.png" alt="copy-doc">
-                        <h3 class="spacing">طلب تمديد تأشيرة العودة</h3>
-                        <p class="spacing">خدمة تتيح للمواطن والمقيم تقديم طلب تمديد تأشيرة العودة</p>
-                        <button  class="more-btn spacing">المزيد</button>
-                    </div>
+                
                 </div>
             </div>
-           
-           
+
+
         </div>
         <div class="section-container display-all-services large-spacing">
-                <img src="arrow-left.png" alt="left-arrow">
-                <h4>عرض كل الخدمات</h4>
+            <img src="arrow-left.png" alt="left-arrow">
+            <h4>عرض كل الخدمات</h4>
         </div>
 
         <div class="section-container popular large-spacing">
             <div class="section-container">
                 <div class="popular-services">
                     <h1 class="medium-spacing services" style="color: white;">تعرف علي المملكة</h1>
-                    <div class="flexed-services medium-spacing kingdom">                 
+                    <div class="flexed-services medium-spacing kingdom">
                         <div>
                             <img src="palm-tree.png" alt="copy-doc">
                             <h3 class="spacing">تاريخ المملكة</h3>
@@ -184,7 +317,7 @@
                         <div>
                             <img src="palm-tree.png" alt="copy-doc">
                             <h3 class="spacing">رؤية المملكة</h3>
-                        </div>          
+                        </div>
                         <div>
                             <img src="palm-tree.png" alt="copy-doc">
                             <h3 class="spacing">اليوم الوطني السعودي</h3>
@@ -196,28 +329,28 @@
                     </div>
                 </div>
             </div>
-           
-                
+
+
         </div>
 
         <div class="section-container ">
             <div class="section-container">
                 <div class="popular-services large-spacing">
                     <div class="news-heading">
-                         <div>
+                        <div>
                             <button class="all-news-btn">
-                            <img src="colored-left-arrow.png" alt="colored-left-arrow">
-                            جميع الأخبار
+                                <img src="colored-left-arrow.png" alt="colored-left-arrow">
+                                جميع الأخبار
 
                             </button>
-                       </div>
-                        <div  class="all-news">
+                        </div>
+                        <div class="all-news">
                             <h2 class="medium-spacing services" style="color: black;">الأخبار</h2>
                             <img src="leaves.png" alt="flower">
                         </div>
-                      
+
                     </div>
-                    <div class="flexed-services medium-spacing kingdom news">                                     
+                    <div class="flexed-services medium-spacing kingdom news">
                         <div style="padding: 0;">
                             <img src="statistics.jpg" alt="statistics">
                             <div class="news-body">
@@ -225,30 +358,15 @@
                                     <p> مايو 15 2024</p>
                                     <img src="calendar.png" alt="calendar">
                                 </div>
-                                <h4 class="spacing" style="text-align: right;">التدريب التقني توفر أكثر من  114 ألف فرصة وظيفية لخريجين العام الماضي </h4>
+                                <h4 class="spacing" style="text-align: right;">التدريب التقني توفر أكثر من 114 ألف فرصة
+                                    وظيفية لخريجين العام الماضي </h4>
                                 <button class="read-more-news-btn medium-spacing">
                                     <img src="colored-left-arrow.png" alt="colored-left-arrow">
-                                     اقرأ المزيد
-                                    </button>
+                                    اقرأ المزيد
+                                </button>
                             </div>
-                          
-                           
-                        </div>       
-                        <div style="padding: 0;">
-                            <img src="statistics.jpg" alt="statistics">
-                            <div class="news-body">
-                                <div class="flexed-calender">
-                                    <p> مايو 15 2024</p>
-                                    <img src="calendar.png" alt="calendar">
-                                </div>
-                                <h4 class="spacing" style="text-align: right;">التدريب التقني توفر أكثر من  114 ألف فرصة وظيفية لخريجين العام الماضي </h4>
-                                <button class="read-more-news-btn medium-spacing">
-                                    <img src="colored-left-arrow.png" alt="colored-left-arrow">
-                                     اقرأ المزيد
-                                    </button>
-                            </div>
-                          
-                           
+
+
                         </div>
                         <div style="padding: 0;">
                             <img src="statistics.jpg" alt="statistics">
@@ -257,23 +375,41 @@
                                     <p> مايو 15 2024</p>
                                     <img src="calendar.png" alt="calendar">
                                 </div>
-                                <h4 class="spacing" style="text-align: right;">التدريب التقني توفر أكثر من  114 ألف فرصة وظيفية لخريجين العام الماضي </h4>
+                                <h4 class="spacing" style="text-align: right;">التدريب التقني توفر أكثر من 114 ألف فرصة
+                                    وظيفية لخريجين العام الماضي </h4>
                                 <button class="read-more-news-btn medium-spacing">
                                     <img src="colored-left-arrow.png" alt="colored-left-arrow">
-                                     اقرأ المزيد
-                                    </button>
+                                    اقرأ المزيد
+                                </button>
                             </div>
-                          
-                           
+
+
+                        </div>
+                        <div style="padding: 0;">
+                            <img src="statistics.jpg" alt="statistics">
+                            <div class="news-body">
+                                <div class="flexed-calender">
+                                    <p> مايو 15 2024</p>
+                                    <img src="calendar.png" alt="calendar">
+                                </div>
+                                <h4 class="spacing" style="text-align: right;">التدريب التقني توفر أكثر من 114 ألف فرصة
+                                    وظيفية لخريجين العام الماضي </h4>
+                                <button class="read-more-news-btn medium-spacing">
+                                    <img src="colored-left-arrow.png" alt="colored-left-arrow">
+                                    اقرأ المزيد
+                                </button>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
             </div>
-           
-                
+
+
         </div>
 
-            
+
     </main>
 
 
@@ -281,7 +417,7 @@
 
     </footer>
 
-  
+
 
 </body>
 

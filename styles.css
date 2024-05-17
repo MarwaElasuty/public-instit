@@ -514,9 +514,10 @@ img[alt="statistics"]{
 }
 
 .more-services-btn{
-    width: 285px;
+    width: 295px;
     display: flex;
     padding: 10px;
+    align-items: center;
     justify-content: space-evenly;
     border-radius: 31px;
     background-color: #f1f1f1;
@@ -533,9 +534,8 @@ img[alt="statistics"]{
     justify-content: space-evenly;
 }
 
-.active{
-    background-color: white;
-    border: 1px solid black;
+.tabs-nav{
+    column-gap: 20px;
 }
 
 
@@ -685,4 +685,53 @@ img[alt="statistics"]{
     color: #5eafa7;
     font-weight: 700;
     margin-left: 15px;
+}
+
+
+.tabs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-right: 1px solid #ccc; /* Add borders for visual separation */
+}
+
+
+
+
+.tab-panel {
+    display: none;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition fallback */
+}
+
+.tab-panel.active {
+    display: block;
+    opacity: 1; /* Fully visible */
+
+}
+
+.tabs-content .tab-panel.active.to-left,
+.tabs-content .tab-panel.to-right {
+    animation: slide 0.3s ease-in-out forwards;
+}
+
+@keyframes slide {
+    from { transform: translateX(0); } /* Start from current position */
+    to { transform: translateX(-100%); } /* Slide out to the left (adjust as needed) */
+}
+
+.tabs-content .tab-panel.active.to-right,
+.tabs-content .tab-panel.from-left {
+    animation: slide-in 0.3s ease-in-out forwards;
+}
+
+@keyframes slide-in {
+    from { transform: translateX(100%); } /* Start from off-screen (right) */
+    to { transform: translateX(0); } /* Slide in from the right */
 }
