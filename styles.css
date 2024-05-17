@@ -473,6 +473,13 @@ img[alt="takamol-logo"]{
     text-align: right;
 }
 
+.ul-services{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    flex-direction: row;
+}
+
 .flexed-services{
     display: flex;
     flex-wrap: wrap;
@@ -492,6 +499,9 @@ img[alt="copy-doc"]{
     width: 50px;
 }
 
+img[alt="statistics"]{
+    width: 100%;
+}
 .more-btn{
     border-radius: 20px;
     padding: 5px;
@@ -542,6 +552,23 @@ img[alt="copy-doc"]{
     background-position: bottom;
 }
 
+.popular-services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 64vh;
+}
+
+.popular-services h2{
+    color:#8a8a8a;
+}
+
+.kingdom > div{
+    padding: 100px 20px 100px 20px;
+    border-radius: 15px;
+}
+
+
 
 @media screen and (max-width: 1200px) and (min-width:992px) {
 
@@ -551,7 +578,9 @@ img[alt="copy-doc"]{
     .flexed-services{
         justify-content: center;
     }
-
+    .popular-services{
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
@@ -559,6 +588,9 @@ img[alt="copy-doc"]{
         width: 50%;
     }
     .popular{
+        height: auto;
+    }
+    .popular-services{
         height: auto;
     }
 }
@@ -570,6 +602,9 @@ img[alt="copy-doc"]{
     .popular{
         height: auto;
     }
+    .popular-services{
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -579,5 +614,16 @@ img[alt="copy-doc"]{
     .popular{
         height: auto;
     }
+    .popular-services{
+        height: auto;
+    }
 
+}
+
+
+.news-heading{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: end;
 }
