@@ -1,8 +1,4 @@
-
-
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,31 +6,34 @@
 
 }
 
-main{
+main {
     background-color: #f9f9f9;
 }
-header{
+
+header {
     background-color: #f9f9f9;
 
 
 }
-:root{
+
+:root {
     --gray-background:
 }
-.section-container{
+
+.section-container {
     max-width: 1350px;
     margin: auto;
 }
 
-.spacing{
+.spacing {
     margin-top: 12px;
 }
 
-.medium-spacing{
+.medium-spacing {
     margin-top: 20px;
 }
 
-.large-spacing{
+.large-spacing {
     margin-top: 60px;
 }
 
@@ -86,7 +85,7 @@ ul a {
     display: none;
 }
 
-.menu-btns > img:nth-of-type(1){
+.menu-btns>img:nth-of-type(1) {
     padding-right: 10px;
 }
 
@@ -122,9 +121,10 @@ img[alt="menu-burger"] {
     display: none;
 }
 
-img[alt="takamol-logo"]{
+img[alt="takamol-logo"] {
     width: 110px;
 }
+
 @media screen and (max-width: 1200px) and (min-width:992px) {
 
     ul {
@@ -410,18 +410,19 @@ img[alt="takamol-logo"]{
 }
 
 
-.green-background{
+.green-background {
     background-color: rgb(8, 81, 38);
-    padding: 47px;
+    padding: 47px 30px 47px 30px;
 }
 
-.inner-green-background{
+.inner-green-background {
+    margin-top: 15px;
     display: flex;
     justify-content: space-between;
 }
 
 
-.opacited-div{
+.opacited-div {
     display: flex;
     column-gap: 7px;
     align-items: center;
@@ -433,11 +434,11 @@ img[alt="takamol-logo"]{
     color: white;
 }
 
-.opacited-div:hover{
+.opacited-div:hover {
     cursor: pointer;
 }
 
-.service-btn{
+.service-btn {
     background-color: rgb(124, 175, 85);
     color: white;
     font-weight: 700;
@@ -448,15 +449,15 @@ img[alt="takamol-logo"]{
     border-style: none;
 }
 
-.service-btn:hover{
+.service-btn:hover {
     cursor: pointer;
 }
 
-.display{
+.display {
     display: block;
 }
 
-.main-green{
+.main-green {
     display: flex;
     column-gap: 8px;
     flex-wrap: wrap;
@@ -467,7 +468,7 @@ img[alt="takamol-logo"]{
 
 
 /* SERVICES */
-.services{
+.services {
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -475,14 +476,14 @@ img[alt="takamol-logo"]{
 
 }
 
-.ul-services{
+.ul-services {
     flex-wrap: wrap;
     justify-content: space-evenly;
     row-gap: 20px;
     flex-direction: row;
 }
 
-.flexed-services{
+.flexed-services {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -490,7 +491,7 @@ img[alt="takamol-logo"]{
 
 }
 
-.flexed-services > div{
+.flexed-services>div {
     width: 23%;
     text-align: center;
     background-color: white;
@@ -498,22 +499,23 @@ img[alt="takamol-logo"]{
     padding: 40px 20px 40px 20px;
 }
 
-img[alt="copy-doc"]{
+img[alt="copy-doc"] {
     width: 50px;
 }
 
-img[alt="statistics"]{
+img[alt="statistics"] {
     width: 100%;
     border-radius: 15px;
 }
-.more-btn{
+
+.more-btn {
     border-radius: 20px;
     padding: 5px;
     width: 90px;
     background-color: white;
 }
 
-.more-services-btn{
+.more-services-btn {
     width: 295px;
     display: flex;
     padding: 10px;
@@ -524,7 +526,7 @@ img[alt="statistics"]{
     color: #8a8a8a;
 }
 
-.mini-services-btn{
+.mini-services-btn {
     width: 110px;
     display: flex;
     padding: 10px;
@@ -534,13 +536,13 @@ img[alt="statistics"]{
     justify-content: space-evenly;
 }
 
-.tabs-nav{
+.tabs-nav {
     column-gap: 20px;
 }
 
 
 
-.display-all-services{
+.display-all-services {
     display: flex;
     align-items: center;
     column-gap: 10px;
@@ -549,7 +551,7 @@ img[alt="statistics"]{
 
 }
 
-.popular{
+.popular {
     max-width: 100%;
     background-image: url(sero.jpg);
     background-size: cover;
@@ -557,23 +559,23 @@ img[alt="statistics"]{
     padding: 60px 0px 60px 0px;
 }
 
-.popular-services{
+.popular-services {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 64vh;
 }
 
-.popular-services h2{
-    color:#8a8a8a;
+.popular-services h2 {
+    color: #8a8a8a;
 }
 
-.kingdom > div{
+.kingdom>div {
     padding: 100px 20px 100px 20px;
     border-radius: 15px;
 }
 
-.news > div{
+.news>div {
     width: 32%;
     border-radius: 15px;
 }
@@ -582,72 +584,114 @@ img[alt="statistics"]{
 
 @media screen and (max-width: 1200px) and (min-width:992px) {
 
-    .flexed-services > div{
+    .flexed-services>div {
         width: 30%;
     }
-    .flexed-services{
+
+    .flexed-services {
         justify-content: center;
     }
-    .popular-services{
+
+    .popular-services {
         height: auto;
     }
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
-    .flexed-services > div{
+    .flexed-services>div {
         width: 50%;
     }
-    .popular{
+
+    .popular {
         height: auto;
     }
-    .popular-services{
+
+    .popular-services {
         height: auto;
+    }
+    .try-version {
+        width: 150px;
+        position: absolute;
+        right: 17px;
+        top: 7px;
+    }
+    .calender-w-date{
+        position: absolute;
+        top: 12px;
     }
 }
 
 @media screen and (max-width: 786px) and (min-width:600px) {
-    .flexed-services > div{
+    .flexed-services>div {
         width: 100%;
     }
-    .popular{
+
+    .popular {
         height: auto;
     }
-    .popular-services{
+
+    .popular-services {
         height: auto;
+    }
+    .try-version {
+        width: 150px;
+        position: absolute;
+        right: 17px;
+        top: 7px;
+    }
+    .calender-w-date{
+        position: absolute;
+        top: 12px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .flexed-services > div{
+    .flexed-services>div {
         width: 100%;
     }
-    .popular{
-        height: auto;
-    }
-    .popular-services{
+
+    .popular {
         height: auto;
     }
 
-    .services, .news-heading, .display-all-services, .kingdom {
+    .popular-services {
+        height: auto;
+    }
+
+    .services,
+    .news-heading,
+    .display-all-services,
+    .kingdom {
         padding: 0 20px 0 20px;
+    }
+
+    .try-version {
+        width: 150px;
+        position: absolute;
+        right: 17px;
+        top: 7px;
+    }
+    .calender-w-date{
+        position: absolute;
+        top: 12px;
     }
 }
 
 
-.news-heading{
+.news-heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
 
-.all-news{
+.all-news {
     display: flex;
     align-items: center;
     column-gap: 3px;
 }
 
-.all-news-btn{
+.all-news-btn {
     background-color: white;
     padding: 10px;
     font-size: 16px;
@@ -663,18 +707,18 @@ img[alt="statistics"]{
 }
 
 
-.flexed-calender{
+.flexed-calender {
     display: flex;
     align-items: center;
     column-gap: 10px;
     justify-content: end;
 }
 
-.news-body{
+.news-body {
     padding: 0px 15px 0px 15px;
 }
 
-.read-more-news-btn{
+.read-more-news-btn {
     background-color: white;
     font-size: 16px;
     padding: 10px;
@@ -698,7 +742,8 @@ img[alt="statistics"]{
 .tab {
     padding: 10px 20px;
     cursor: pointer;
-    border-right: 1px solid #ccc; /* Add borders for visual separation */
+    border-right: 1px solid #ccc;
+    /* Add borders for visual separation */
 }
 
 
@@ -706,13 +751,16 @@ img[alt="statistics"]{
 
 .tab-panel {
     display: none;
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease-in-out; /* Smooth transition fallback */
+    opacity: 0;
+    /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+    /* Smooth transition fallback */
 }
 
 .tab-panel.active {
     display: block;
-    opacity: 1; /* Fully visible */
+    opacity: 1;
+    /* Fully visible */
 
 }
 
@@ -722,8 +770,16 @@ img[alt="statistics"]{
 }
 
 @keyframes slide {
-    from { transform: translateX(0); } /* Start from current position */
-    to { transform: translateX(-100%); } /* Slide out to the left (adjust as needed) */
+    from {
+        transform: translateX(0);
+    }
+
+    /* Start from current position */
+    to {
+        transform: translateX(-100%);
+    }
+
+    /* Slide out to the left (adjust as needed) */
 }
 
 .tabs-content .tab-panel.active.to-right,
@@ -732,6 +788,14 @@ img[alt="statistics"]{
 }
 
 @keyframes slide-in {
-    from { transform: translateX(100%); } /* Start from off-screen (right) */
-    to { transform: translateX(0); } /* Slide in from the right */
+    from {
+        transform: translateX(100%);
+    }
+
+    /* Start from off-screen (right) */
+    to {
+        transform: translateX(0);
+    }
+
+    /* Slide in from the right */
 }
