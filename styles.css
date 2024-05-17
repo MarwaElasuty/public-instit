@@ -38,6 +38,10 @@ header {
 }
 
 
+/* SLIDER */
+
+
+
 /*************** NAVIGATION BAR *****************/
 nav {
     display: flex;
@@ -538,6 +542,10 @@ img[alt="statistics"] {
 
 .tabs-nav {
     column-gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: end;
 }
 
 
@@ -563,7 +571,7 @@ img[alt="statistics"] {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 64vh;
+    height: 73vh;
 }
 
 .popular-services h2 {

@@ -2,9 +2,11 @@
 
 function appear() {
     document.querySelector(".ul-list").classList.toggle("display");
-   }
+}
 
-   const tabs = document.querySelectorAll('.tab');
+
+// SERVICES TABS 
+const tabs = document.querySelectorAll('.tab');
 const tabPanels = document.querySelectorAll('.tab-panel');
 
 tabs.forEach((tab, index) => {
@@ -22,3 +24,7 @@ tabs.forEach((tab, index) => {
         }, 300); // Adjust timeout to match transition duration (0.3s in CSS)
     });
 });
+
+
+// SLIDER
+
