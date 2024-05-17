@@ -31,11 +31,12 @@ nav {
 
 ul {
     display: flex;
-    column-gap: 92px;
+    column-gap: 70px;
     list-style-type: none;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 17px;
 }
+
 
 
 ul a {
@@ -95,6 +96,10 @@ button[name="start"] {
 img[alt="menu-burger"] {
     display: none;
 }
+
+img[alt="takamol-logo"]{
+    width: 110px;
+}
 @media screen and (max-width: 1200px) and (min-width:992px) {
 
     ul {
@@ -123,21 +128,6 @@ img[alt="menu-burger"] {
 
     ul a:hover {
         color: white;
-    }
-
-    .display {
-        display: none;
-        position: absolute;
-        top: 80px;
-        right: 20px;
-        border: 5px solid #518581;
-        padding: 58px;
-        background-color: #518581;
-        color: white;
-        font-size: 25px;
-        z-index: 2;
-        text-align: center;
-        border-radius: 76px;
     }
 
     .ul-list a:hover {
@@ -443,7 +433,7 @@ img[alt="menu-burger"] {
 
 .main-green{
     display: flex;
-    column-gap: 17px;
+    column-gap: 8px;
     flex-wrap: wrap;
     color: white;
     row-gap: 20px;
