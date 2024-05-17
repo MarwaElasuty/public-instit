@@ -9,10 +9,34 @@
     font-family: "Cairo", sans-serif;
 
 }
+
+main{
+    background-color: #f9f9f9;
+}
+header{
+    background-color: #f9f9f9;
+
+}
+:root{
+    --gray-background:
+}
 .section-container{
     max-width: 1350px;
     margin: auto;
 }
+
+.spacing{
+    margin-top: 12px;
+}
+
+.medium-spacing{
+    margin-top: 20px;
+}
+
+.large-spacing{
+    margin-top: 60px;
+}
+
 
 /*************** NAVIGATION BAR *****************/
 nav {
@@ -441,3 +465,119 @@ img[alt="takamol-logo"]{
 }
 
 
+/* SERVICES */
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+}
+
+.flexed-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.flexed-services > div{
+    width: 23%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 8px -2px gainsboro;
+    padding: 40px 20px 40px 20px;
+}
+
+img[alt="copy-doc"]{
+    width: 50px;
+}
+
+.more-btn{
+    border-radius: 20px;
+    padding: 5px;
+    width: 90px;
+    background-color: white;
+}
+
+.more-services-btn{
+    width: 285px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    border-radius: 31px;
+    background-color: #f1f1f1;
+    color: #8a8a8a;
+}
+
+.mini-services-btn{
+    width: 110px;
+    display: flex;
+    padding: 10px;
+    border-radius: 31px;
+    background-color: #f1f1f1;
+    color: #8a8a8a;
+    justify-content: space-evenly;
+}
+
+.active{
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+
+.display-all-services{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-weight: 700;
+    justify-content: start;
+}
+
+.popular{
+    max-width: 100%;
+    background-image: url(sero.jpg);
+    background-size: cover;
+    height: 65vh;
+    background-position: bottom;
+}
+
+
+@media screen and (max-width: 1200px) and (min-width:992px) {
+
+    .flexed-services > div{
+        width: 30%;
+    }
+    .flexed-services{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 992px) and (min-width:786px) {
+    .flexed-services > div{
+        width: 50%;
+    }
+    .popular{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 786px) and (min-width:600px) {
+    .flexed-services > div{
+        width: 100%;
+    }
+    .popular{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .flexed-services > div{
+        width: 100%;
+    }
+    .popular{
+        height: auto;
+    }
+
+}
