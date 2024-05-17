@@ -82,6 +82,24 @@
     
 
     <main>
+
+        <div class="slider-container">
+            <div class="slider-wrapper">
+                <img src="image1.jpg" alt="Image 1" class="slide active">
+                <img src="image2.jpg" alt="Image 2" class="slide">
+                <img src="image3.jpg" alt="Image 3" class="slide">
+                </div>
+            <button class="prev-arrow">&#8592;</button>
+            <button class="next-arrow">&#8594;</button>
+            <div class="dots-container">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                </div>
+        </div>
+
+
+
         <div class="section-container services">
             <div class="digital-services">
                 <h2 class="medium-spacing">الخدمات الرقمية</h2>
@@ -186,19 +204,30 @@
             <div class="section-container">
                 <div class="popular-services">
                     <div class="news-heading">
-                        <h2 class="medium-spacing services" style="color: black;">الأخبار</h2>
-                        <img src="leaves.png" alt="flower">
+                         <div>
+                            <button class="all-news-btn">
+                            <img src="colored-left-arrow.png" alt="colored-left-arrow">
+                            جميع الأخبار
+
+
+                            </button>
+                       </div>
+                        <div  class="all-news">
+                            <h2 class="medium-spacing services" style="color: black;">الأخبار</h2>
+                            <img src="leaves.png" alt="flower">
+                        </div>
+                      
                     </div>
-                    <div class="flexed-services medium-spacing kingdom">                                     
-                        <div>
+                    <div class="flexed-services medium-spacing kingdom news">                                     
+                        <div style="padding: 0;">
                             <img src="statistics.jpg" alt="statistics">
                             <h3 class="spacing">رؤية المملكة</h3>
                         </div>          
-                        <div>
+                        <div style="padding: 0;">
                             <img src="statistics.jpg" alt="statistics">
                             <h3 class="spacing">اليوم الوطني السعودي</h3>
                         </div>
-                        <div>
+                        <div style="padding: 0;">
                             <img src="statistics.jpg" alt="statistics">
                             <h3 class="spacing">القيادة السعودية</h3>
                         </div>

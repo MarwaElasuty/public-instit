@@ -16,6 +16,7 @@ main{
 header{
     background-color: #f9f9f9;
 
+
 }
 :root{
     --gray-background:
@@ -471,6 +472,8 @@ img[alt="takamol-logo"]{
     flex-direction: column;
     align-items: end;
     text-align: right;
+    padding: 0 20px 0 20px;
+
 }
 
 .ul-services{
@@ -485,6 +488,8 @@ img[alt="takamol-logo"]{
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 20px;
+    padding: 0 20px 0 20px;
+
 }
 
 .flexed-services > div{
@@ -501,6 +506,7 @@ img[alt="copy-doc"]{
 
 img[alt="statistics"]{
     width: 100%;
+    border-radius: 15px;
 }
 .more-btn{
     border-radius: 20px;
@@ -542,6 +548,8 @@ img[alt="statistics"]{
     column-gap: 10px;
     font-weight: 700;
     justify-content: start;
+    padding: 0 20px 0 20px;
+
 }
 
 .popular{
@@ -565,6 +573,11 @@ img[alt="statistics"]{
 
 .kingdom > div{
     padding: 100px 20px 100px 20px;
+    border-radius: 15px;
+}
+
+.news > div{
+    width: 32%;
     border-radius: 15px;
 }
 
@@ -623,7 +636,29 @@ img[alt="statistics"]{
 
 .news-heading{
     display: flex;
-    column-gap: 10px;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+
+}
+
+.all-news{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.all-news-btn{
+    background-color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid rgb(94, 175, 167);
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+    column-gap: 8px;
+    width: 150px;
+    color: #5eafa7;
+    font-weight: 700;
+    justify-content: center;
 }
