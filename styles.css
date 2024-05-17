@@ -472,7 +472,6 @@ img[alt="takamol-logo"]{
     flex-direction: column;
     align-items: end;
     text-align: right;
-    padding: 0 20px 0 20px;
 
 }
 
@@ -488,7 +487,6 @@ img[alt="takamol-logo"]{
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 20px;
-    padding: 0 20px 0 20px;
 
 }
 
@@ -548,7 +546,6 @@ img[alt="statistics"]{
     column-gap: 10px;
     font-weight: 700;
     justify-content: start;
-    padding: 0 20px 0 20px;
 
 }
 
@@ -556,8 +553,8 @@ img[alt="statistics"]{
     max-width: 100%;
     background-image: url(sero.jpg);
     background-size: cover;
-    height: 77vh;
     background-position: bottom;
+    padding: 60px 0px 60px 0px;
 }
 
 .popular-services{
@@ -631,6 +628,9 @@ img[alt="statistics"]{
         height: auto;
     }
 
+    .services, .news-heading, .display-all-services, .kingdom {
+        padding: 0 20px 0 20px;
+    }
 }
 
 
@@ -638,14 +638,13 @@ img[alt="statistics"]{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px 0 20px;
 
 }
 
 .all-news{
     display: flex;
     align-items: center;
-    column-gap: 10px;
+    column-gap: 3px;
 }
 
 .all-news-btn{
@@ -661,4 +660,29 @@ img[alt="statistics"]{
     color: #5eafa7;
     font-weight: 700;
     justify-content: center;
+}
+
+
+.flexed-calender{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: end;
+}
+
+.news-body{
+    padding: 0px 15px 0px 15px;
+}
+
+.read-more-news-btn{
+    background-color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    color: #5eafa7;
+    font-weight: 700;
+    margin-left: 15px;
 }
