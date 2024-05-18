@@ -807,3 +807,24 @@ img[alt="statistics"] {
 
     /* Slide in from the right */
 }
+
+
+/* FOOTER */
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer > div{
+    width: 20%;
+}
+
+.footer-logo-desc{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
