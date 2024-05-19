@@ -109,16 +109,5 @@ for (let image of images) {
 }
 
 
- slider = document.querySelector('.slider'); // Get the slider element
- nextButton = document.querySelector('.next'); // Get the 'next' button
 
-nextButton.addEventListener('click', () => {
-  const descriptions = slider.querySelectorAll('.slider-description');
-  descriptions.forEach(description => {
-    description.style.animation = 'none'; // Reset animation styles
-    setTimeout(() => {
-      description.style.animation = 'fadeInRight 2.5s ease-in-out'; // Re-apply animation
-    }, 100); // Delay to avoid immediate animation conflict (optional)
-  });
-});
 
