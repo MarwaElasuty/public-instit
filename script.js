@@ -94,19 +94,8 @@ clickedServicesBtn.addEventListener("click", function(){
 
 
 
-// test slider 
 
 
-const slider = document.querySelector('.slider');
- images = ['sero.jpg', 'place3.jpg', 'place2.jpg']; // Array of image paths
-
-for (let image of images) {
-  const imageDiv = document.createElement('div');
-  const imageElement = document.createElement('img');
-  imageElement.src = image;
-  imageDiv.appendChild(imageElement);
-  slider.appendChild(imageDiv);
-}
 
 
 
